@@ -1,0 +1,3 @@
+# Collab
+
+Collaboration workspace.
