@@ -1,0 +1,11 @@
+{
+  "name": "mothership",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["backend", "frontend"],
+  "scripts": {
+    "dev:backend": "cd backend && bun run dev",
+    "dev:frontend": "cd frontend && bun run dev",
+    "connect": "bash scripts/connect.sh"
+  }
+}

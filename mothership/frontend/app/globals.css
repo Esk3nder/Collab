@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --matrix-green: #00ff41;
+  --matrix-dark: #0d0d0d;
+  --lavender: #8b5cf6;
+}
+
+body {
+  @apply bg-matrix-dark text-gray-100;
+}
+
+/* xterm.js overrides */
+.xterm {
+  padding: 8px;
+}
+
+.xterm-viewport {
+  background-color: #0d0d0d !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
